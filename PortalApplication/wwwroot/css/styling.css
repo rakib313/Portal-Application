@@ -1,0 +1,27 @@
+﻿body, html, *{
+    box-sizing: border-box;
+    margin-top: 0 auto;
+}
+
+#logo {
+    width: 30px;
+}
+
+.btn {
+    width: 75px;
+}
+
+.imageThumbnail {
+    height: 250px;
+    width: 300px;
+}
+
+.grid-wrapper {
+    display: grid;
+    justify-items: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    grid-template-rows: auto;
+    margin-top: 5px;
+}
